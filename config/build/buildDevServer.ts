@@ -6,7 +6,7 @@ export function buildDevServer(options: BuildOptions): DevServerConfifuration {
         port: options.port,
         open: true,
         historyApiFallback: true,
-        //hot: true,
+        hot: true,
         static: {
             directory: options.paths.static,
         },
